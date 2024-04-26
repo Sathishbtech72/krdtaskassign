@@ -1,0 +1,49 @@
+.list-wrpper{
+
+    p{
+        color: #fff;
+        text-align: left;
+        font-size: 14px;
+        line-height: 20px;
+    }
+    .logopic{
+        display: block;
+        text-align: left;
+    }
+
+    .groups-wrapeer-item{
+        display: flex;
+        flex-wrap: wrap;
+        justify-content: space-between; 
+         padding: 1% 1% 1% 1%;
+    }
+
+    .content-wrapper {
+        flex: 1; 
+        padding: 50px 10px 50px 10px;
+
+    }
+      
+      .image-wrapper {
+        flex: 0 0 auto; 
+        margin-left: 20px;
+      }
+
+}
+
+@media only screen and (max-width: 768px) {
+    .list-wrpper{
+
+      
+    
+        .groups-wrapeer-item{
+            display: block;
+        }
+    
+          
+          .image-wrapper {
+            text-align: center;
+          }
+    
+    }
+}
